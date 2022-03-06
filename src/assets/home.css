@@ -1,0 +1,201 @@
+.hide-on-mobile {
+    display: block;
+}
+div.ast-container {
+    width: 100% !important;
+}
+.ast-container {
+    max-width: 100% !important;
+    padding: 0;
+}
+.cover-section-container {
+    background-color: white;
+    padding-top: 50px;
+}
+section.cover-section {
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    background-color: #fff;
+}
+
+@media only screen and (min-width: 992px)
+{
+    .cover-section-container {
+        background-color: white;
+        height: 565px;
+        max-height: 565px;
+    }
+    .main-banner .cover-content {
+        background-image: none !important;
+    }
+    .main-text {
+        margin-top: 15px;
+    }
+    section.cover-section {
+        height: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1400px)
+{
+    .cover-section-container {
+        background-color: white;
+        height: 450px;
+        max-height: 565px;
+        padding-top: 30px;
+    }
+}
+section.cover-section div.row {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    max-width: 1550px;
+}
+.main-banner {
+    height: 100%;
+}
+
+@media only screen and (max-width: 576px){
+    .main-banner .cover-content {
+        background-size: 266px 207px;
+        height: 170px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .main-banner .cover-content {
+        background-size: 486px 249px;
+        background-repeat: no-repeat;
+        height: 300px;
+        flex-direction: column;
+        text-align: right;
+        justify-content: center;
+        background-color: #fff;
+        padding-right: 10px;
+        background-position: top center;
+    }
+    section.cover-section .cover-content .main-text {
+        width: 58%;
+        display: none;
+    }
+}
+
+.main-text {
+    margin-bottom: 29px;
+    margin-top: 25px;
+}
+.main-text .content-text:nth-child(1) {
+    font-weight: 600 !important;
+}
+section.cover-section .content-text {
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    font-weight: 700;
+}
+
+.main-text .content-text {
+    margin-top: 5px;
+    font-size: 4.625rem !important;
+    line-height: 96% !important;
+}
+@media only screen and (max-width: 1600px)
+{
+    .main-text .content-text {
+        font-size: 4rem !important;
+    }
+}
+@media screen and (max-width: 1440px)
+{
+    .main-text .content-text {
+        font-size: 3rem !important;
+    }
+}
+
+
+.content-btn {
+    align-items: center;
+    margin-bottom: 53px;
+    margin-top: 11px;
+}
+.content-btn span, .content-btn p {
+    font-weight: 600;
+    font-size: 1.8125rem;
+    line-height: 96%;
+    color: #234353;
+    margin-bottom: 0px !important;
+}
+.content-btn .wrap-clock {
+    padding: 0 0.5rem;
+    height: 48px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0px;
+}
+#clock {
+    font-size: 1.8rem;
+}
+.content-btn .wrap-clock .clock {
+    font-weight: 900 !important;
+}
+.content-btn .wrap-clock .dot {
+    width: 13px;
+    height: 13px;
+    background-color: #25c321;
+    border-radius: 100%;
+    margin-right: 10px;
+    display: inline-flex;
+}
+.wrap-brands {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 545px;
+    column-gap: 60px;
+    row-gap: 25px;
+    text-align: center;
+}
+
+.wrap-brands img {
+    object-fit: contain;
+    height: 65px;
+    max-height: 50px;
+    filter: grayscale(100%);
+}
+.wrap-brands img:hover{
+    filter: none;
+}
+
+
+/* Map styles */
+section.bundles_map {
+    position: relative;
+    width: 84%;
+    margin: 0 auto;
+    margin-bottom: 5.4rem;
+    max-width: 1800px;
+}
+section.bundles_map img {
+    width: 100%;
+}
+@media only screen and (max-width: 1600px){
+    section.bundles_map .bundles-map-title {
+        font-size: 4.5rem;
+    }
+}
+section.bundles_map .bundles-map-title {
+    position: absolute;
+    bottom: 10%;
+    right: 8%;
+    color: white;
+    font-size: 5.4rem;
+    line-height: 5.4rem;
+}
+section.bundles_map .bundles-map-title .first-part {
+    display: flex;
+}
+section.bundles_map .bundles-map-title .dot {
+    color: red;
+}
+

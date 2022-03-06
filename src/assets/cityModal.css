@@ -1,0 +1,243 @@
+/* model styles */
+.modal.blue {
+    background-color: rgba(35, 67, 83, 0.85) !important;
+}
+.modal.show[role='dialog'] {
+    padding: 0px !important;
+    }
+
+.modal.center .modal-container {
+    top: 50%;
+    width: fit-content;
+    max-width: unset !important;
+    transform: translateY(-50%) !important;
+}
+.modal .modal-container.modal-dialog {
+    padding: 5%;
+}
+.modal-dialog {
+    margin: auto !important;
+}
+.modal .city-select .modal-content {
+    min-height: 500px;
+    height: 505px;
+    width: 800px !important;
+}
+.modal .modal-content {
+    width: 65vw;
+    position: relative;
+    top: 0px;
+    height: auto;
+}
+
+
+.modal .modal-container.modal-dialog .logo-container {
+    justify-content: center;
+    display: flex;
+    max-width: 260px;
+    width: 260px;
+    height: 160px;
+    max-height: 160px;
+    margin: 45px auto 33px;
+}
+.modal .modal-container.modal-dialog .whitch_city {
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 100%;
+    color: #234353;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.modal.city-select-modal .modal-container.modal-dialog .dropdown {
+    height: 45px;
+    width: 326px;
+    margin: 53px auto 0;
+}
+.modal.city-select-modal .modal-container.modal-dialog #myDropdown {
+    width: unset;
+}
+.dropdown-content {
+    background-color: #ffffff;
+    z-index: 1;
+    margin: 0px auto;
+}
+.selectCity {
+    width: 100%;
+    padding: 6px 10px !important;
+    border: 0.5px solid #bdcbd2 !important;
+    outline: none !important;
+}
+.wrap_cities, .wrap_cities_form_cf7 {
+    display: none;
+    width: 326px;
+    position: absolute;
+    height: 172px;
+    box-shadow: 0px 4px 14px rgb(0 0 0 / 9%);
+    overflow-y: auto;
+    text-align: right;
+    background: #ffffff;
+    border-radius: 0px !important;
+}
+#not_found_cities {
+    display: none;
+}
+.dropdown-content a, .wrap_cities .city_picker_form, .wrap_cities_form_cf7 .city_picker_form {
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 17px;
+    color: #234353;
+    cursor: pointer;
+}
+
+@media (min-width: 922px)
+{
+    #city-select-modal .contact-us-container {
+    margin-bottom: 1rem !important;
+    margin: auto;
+    margin-top: 20px;
+    }
+}
+.modal .contact-us-container {
+    text-align: center;
+    color: #0c1b30;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 85px;
+}
+a.city-select-contact-trigger {
+    margin-right: 0 !important;
+    margin-bottom: 35px;
+    max-width: 265px;
+    font-weight: 600 !important;
+    font-size: 17px !important;
+    color: #234353 !important;
+    margin-top: 15px !important;
+}
+
+.city-select-modal .modal-content {
+    overflow: unset !important;
+}
+.close-dialog {
+    width: 21px;
+    height: 21px;
+    right: 32px;
+    top: 27px;
+    position: absolute;
+    cursor: pointer;
+    z-index: 9999;
+}
+.modal .modal-container.modal-dialog .modal-body {
+    flex: unset !important;
+    padding: 0px;
+}
+.city-select-modal .modal-body {
+    overflow: auto !important;
+}
+.modal .modal__title.add_city {
+    font-weight: 600 !important;
+    font-size: 1.875rem;
+    line-height: 100%;
+    text-align: center;
+    color: #234353;
+    margin-bottom: 10px !important;
+}
+.modal .modal__title {
+    text-align: center;
+    color: #0c1b30;
+    font-size: 42px;
+    font-weight: 300 !important;
+    margin-bottom: 0.5rem !important;
+    margin-top: 3.2rem !important;
+}
+.modal .city-suggestion .modal__subtitle {
+    margin-bottom: 45px !important;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    padding: 0 2rem;
+    color: #234353;
+}
+
+.modal .city-suggestion .modal-content {
+    height: auto;
+}
+.modal .modal__subtitle {
+    text-align: center;
+    color: #0c1b30;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1rem !important;
+}
+.modal.city-select-modal .modal-container.modal-dialog .modal__sites {
+    margin-top: 36px;
+}
+.modal .modal__sites {
+    list-style: none;
+    text-align: center;
+    padding-right: 0 !important;
+}
+.wpcf7 {
+    max-width: 326px;
+    margin: auto;
+}
+.wpcf7 .screen-reader-response {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    word-wrap: normal !important;
+}
+.modal p:first-child {
+    margin-top: 0;
+}
+.add_city_success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 45px;
+    display: none;
+}
+.add_city_success .add_city_image {
+    margin-bottom: 45px;
+}
+.modal-content {
+    position: relative;
+    z-index: 1050;
+    background: #fff;
+    background: unset;
+    overflow: hidden;
+    outline: 0;
+    width: 830px;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    top: 18%;
+    left: 0;
+    background: white;
+}
+@media (min-width: 576px)
+{
+    .modal-dialog {
+        max-width: 500px;
+        margin: 1.75rem auto;
+    }
+}
+
+.modal .contact-us-container .contact-us {
+    text-decoration: underline;
+    color: #234353 !important;
+}
+
